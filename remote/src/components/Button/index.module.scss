@@ -1,0 +1,14 @@
+.button {
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  //   추가
+  border-radius: 50%;
+  //
+  &:hover {
+    background-color: #0f0;
+  }
+}
